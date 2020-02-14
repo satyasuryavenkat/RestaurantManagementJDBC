@@ -24,7 +24,7 @@ public class ConnectionHandler {
 	    	Class.forName("com.mysql.jdbc.Driver");
 			
 			
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sys","root","password-1");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/DataBaseName","UserName","Password");
 	        
 	    }
 	    catch(SQLException e){
