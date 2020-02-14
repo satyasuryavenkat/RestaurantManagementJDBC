@@ -1,0 +1,3 @@
+create table itemmenu(itemid long,itemname varchar(50),itemcost int,itemcat varchar(50),itemlaunchdate date,itemavastatus varchar(10),itemdeliverystatus varchar(10));
+
+create table cart(userid long,itemid long);
